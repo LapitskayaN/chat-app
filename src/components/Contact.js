@@ -8,15 +8,13 @@ function Contact() {
           <img  className="avatar" src="https://randomuser.me/api/portraits/women/10.jpg"></img>  
           {/* /// <a href="https://randomuser.me/api/portraits/women/10.jpg">aaa</a>     */}
       </div>
-      <div>
-        <div className="name">
-          <p>Natalia Lapitskaya</p>
-        </div>
-        <div className="status">
-            <div className="status-online "></div> 
-            {/* <div className="status-offline "></div>        */}
-            <p className="status-text">online</p>
-        </div>
+      <div>        
+          <p className="name">Georgia Morris</p>        
+          <div className="status">
+            <p className="status-text">
+              <span className="status-online"></span>Online
+            </p>
+          </div>
       </div>
 
     </div>
